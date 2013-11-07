@@ -34,7 +34,11 @@ end
 
 group :development do
     gem 'rspec-rails'
-    gem 'cucumber'
+end
+
+group :test do
+    gem 'database_cleaner'
+    gem 'cucumber-rails',require:false
 end
 
 # Use ActiveModel has_secure_password
