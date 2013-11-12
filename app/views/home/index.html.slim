@@ -1,5 +1,5 @@
 h1 欢迎来拼车，少开一次车，少排一次碳
-- if user.login
+- if user_signed_in?
     = render user.action if user.login
-- if not user.login
+- if not user_signed_in?
     = render user.reg if not user.login

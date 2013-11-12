@@ -24,5 +24,7 @@ module Car4home
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+    config.secret_key = 'c2bd0abebdcec785b0141f5190845de4bcc542fcd6a27b7be3e53f84043a11b970c8f4d728b1f5c0c4b36895ca50ff29752d73a4ffe32b539e69aaa4faf5381d'
   end
 end
